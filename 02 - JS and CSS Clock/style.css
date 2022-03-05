@@ -40,4 +40,8 @@ body {
     background: black;
     position: absolute;
     top: 50%;
+    /* change the rotation point */
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s cubic-bezier(0.1, 2.7, 0.58, 1);  /* fake tick effect*/
 }
